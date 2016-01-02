@@ -741,7 +741,7 @@ module.exports =
 
       _get(Object.getPrototypeOf(_default.prototype), "constructor", this).call(this);
       this.projects = [{ title: "2000 Reviews", description: "A little review website using Python/Google App Engine.",
-        link: "http://2000reviews.appspot.com", source: "https://github.com/jamesporter/2000reviews" }, { title: "Web Dasbhoard", description: "An Android App for realtime interactive web dashboards (or mainly an excuse to try/demo Kotlin)",
+        link: "http://2000reviews.appspot.com", source: "https://github.com/jamesporter/2000reviews" }, { title: "Web Dashboard", description: "An Android App for realtime interactive web dashboards (or mainly an excuse to try/demo Kotlin)",
         link: "https://play.google.com/store/apps/details?id=uk.amimetic.webdashboard", source: "https://github.com/jamesporter/Android-Web-Dashboard" }, { title: "New Year Countdown/Example Web Dashboard", source: "https://github.com/jamesporter/React-SCSS-Webpack-Web-Dashboard-Example",
         link: "http://amimetic.co.uk/webdashboardexample.html", description: "Example React dashboard for the Android Web Dashboard (and a way of trying out Webpack)" }];
     }
