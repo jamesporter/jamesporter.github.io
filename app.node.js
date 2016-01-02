@@ -742,7 +742,8 @@ module.exports =
       _get(Object.getPrototypeOf(_default.prototype), "constructor", this).call(this);
       this.projects = [{ title: "2000 Reviews", description: "A little review website using Python/Google App Engine.",
         link: "http://2000reviews.appspot.com", source: "https://github.com/jamesporter/2000reviews" }, { title: "Web Dasbhoard", description: "An Android App for realtime interactive web dashboards (or mainly an excuse to try/demo Kotlin)",
-        link: "https://play.google.com/store/apps/details?id=uk.amimetic.webdashboard", source: "https://github.com/jamesporter/Android-Web-Dashboard" }];
+        link: "https://play.google.com/store/apps/details?id=uk.amimetic.webdashboard", source: "https://github.com/jamesporter/Android-Web-Dashboard" }, { title: "New Year Countdown/Example Web Dashboard", source: "https://github.com/jamesporter/React-SCSS-Webpack-Web-Dashboard-Example",
+        link: "http://amimetic.co.uk/webdashboardexample.html", description: "Example React dashboard for the Android Web Dashboard (and a way of trying out Webpack)" }];
     }
 
     _createClass(_default, [{
@@ -812,7 +813,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  background-color: #f5f5f5;\n  color: #222;\n  font-family: 'Roboto','Helvetica',sans-serif;\n}\n\n.Layout {\n  margin: 0 auto;\n}\n\nul {\n  list-style: none;\n  margin:0px;\n  padding:0px;\n  \n}\n\nli {\n  margin: 0px;\n  padding: 5px;\n}\n\n@media (min-width: 768px) {\n  .Layout {\n    width: calc(768px - 18px);\n  }\n}\n\n@media (min-width: 992px) {\n  .Layout {\n    width: calc(992px - 22px);\n  }\n}\n\n@media (min-width: 1200px) {\n  .Layout {\n    width: calc(1200px - 30px);\n  }\n}\n", ""]);
+  exports.push([module.id, "/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/**\n * React Static Boilerplate\n * https://github.com/koistya/react-static-boilerplate\n * Copyright (c) Konstantin Tarkus (@koistya) | MIT license\n */\n\n/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  background-color: #f5f5f5;\n  color: #222;\n  font-family: 'Roboto','Helvetica',sans-serif;\n}\n\n.Layout {\n  margin: 0 auto;\n}\n\n#app {\n  padding: 10px;\n}\n\nul {\n  list-style: none;\n  margin:0px;\n  padding:0px;\n\n}\n\nli {\n  margin: 0px;\n  padding: 5px;\n}\n\n@media (min-width: 768px) {\n  .Layout {\n    width: calc(768px - 18px);\n  }\n}\n\n@media (min-width: 992px) {\n  .Layout {\n    width: calc(992px - 22px);\n  }\n}\n\n@media (min-width: 1200px) {\n  .Layout {\n    width: calc(1200px - 30px);\n  }\n}\n", ""]);
 
   // exports
 
